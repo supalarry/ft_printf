@@ -9,5 +9,5 @@ use C and for multibyte string S conversion characters. For multibyte characters
 Additionally, flags (#,0,-,+ and space), length specifiers (l, L, hh, h, l, ll) and field width are supported.
 Function returns bytes written to standard output.
 
-![alt text](https://imgur.com/lyVmuHf)
-![alt text](https://imgur.com/pFlynR9)
+![alt text](https://i.imgur.com/lyVmuHf.png)
+![alt text](https://i.imgur.com/pFlynR9.png)
