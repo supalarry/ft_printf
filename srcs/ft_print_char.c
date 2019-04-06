@@ -19,7 +19,7 @@
 ** @return bytes in a character or field width
 */
 
-int	ft_print_char(t_node *node, int c)
+int	ft_print_char(t_node *node, int c) 
 {
 	int		field_width;
 	char	fill;
