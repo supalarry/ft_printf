@@ -26,7 +26,15 @@ Furthermore, it supports multibyte characters. For multibyte character argument 
 ft_printf("%C", L'→');
 ```
 
-Additionally, flags (#,0,-,+ and space), length specifiers (l, L, hh, h, l, ll) and field width are supported.
+Additionally, following flags are supported
+```
+#,0,-,+ and space
+```
+Allowed length specifiers 
+```
+l, L, hh, h, l, ll
+```
+Finally, field width is supported.
 Function returns bytes written to standard output.
 
 ![alt text](https://i.imgur.com/lyVmuHf.png)
