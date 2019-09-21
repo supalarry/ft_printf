@@ -13,7 +13,7 @@ To produce ft_printf() function, only UNIX write, malloc, free, exit, stdarg fun
 ft_printf
 ├── includes [header file for project]
 ├── libft [my library with various functions]
-└── srcs [sources of the project]
+└── srcs [source files of the project]
 Makefile [compiles the project]
 author [my username]
 ```
