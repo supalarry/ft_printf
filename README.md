@@ -2,7 +2,7 @@
 ft_printf is reproduced C's printf function. Just like real printf, it allows the following functionality:
 
 ```
-%[flags][width][.precision][length]type
+%[flags][width][.precision][length]type 
 ```
 
 Result is a formated string. Each of these parts is explained below.
