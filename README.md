@@ -20,10 +20,14 @@ gcc main.c libftprintf.a
 Following flags are supported
 ```
 '#'(hash) - For o, x, X types, the text 0, 0x, 0X, respectively, is prepended to non-zero numbers.
-'0'(zero) - When the 'width' option is specified, prepends zeros for numeric types. (The default prepends spaces.)
+
+'0'(zero) - When the 'width' option is specified, prepends zeros for numeric types.
 For example, printf("%2X",3) produces ' 3', while printf("%04X",3) produces '0003'.
+
 '-'(minus) - Left-align the output of this placeholder. (The default is to right-align the output.)
+
 '+'(plus) - Prepends a plus for positive signed-numeric types.
+
 ' '(space) - Prepends a space for positive signed-numeric types.This flag is ignored if the + flag exists.
 ```
 
@@ -75,5 +79,16 @@ Function returns bytes written to standard output. Thus, if multibyte character 
 
 ## Example
 
-![alt text](https://i.imgur.com/lyVmuHf.png)
-![alt text](https://i.imgur.com/pFlynR9.png)
+Following program
+```
+int main(void)
+{
+  ft_printf("I use %f%Cs to buy %s\n", 9.23, L'€', "groceries");
+}
+```
+
+Would produce following output
+```
+I use 9.230000€s to buy groceries.
+```
+Notably, the float has 6 digits after comma, because that is how default printf() functions, if no width has been specified.
