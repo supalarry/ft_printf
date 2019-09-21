@@ -6,6 +6,7 @@ ft_printf is reproduced C's printf function. Just like real printf, it allows th
 ```
 
 Result is a formated string. Each of these parts is explained below.
+To produce ft_printf() function, only UNIX write, malloc, free, exit, stdarg functions have been used. Rest of the functionality is custom built.
 
 ## Getting Started
 
@@ -92,13 +93,3 @@ Would produce following output
 I use 9.230000€s to buy groceries.
 ```
 Notably, the float has 6 digits after comma, because that is how default printf() functions, if no width has been specified.
-
-## Footnote
-To produce ft_printf() function, only the following functions have been used
-```
-write
-malloc
-free
-exit
-stdarg
-```
